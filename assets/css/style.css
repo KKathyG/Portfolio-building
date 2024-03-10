@@ -5,24 +5,17 @@
 }
 
 body {
-  font-family: Arial;
+  font-family: Arial; 
 }
 
 header {
   padding: 20px;
   text-align: center;
-  background: #0E0F19;
-  color: #fff;
-  /* margin-bottom: 30px; */
+  background: #ffef97;
+  color: #CF9FFF;
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-
-nav {
-  display: flex;
-  background-color: #23eb76;
-  margin-bottom: 6px;
 }
 
 header nav a {
@@ -36,7 +29,7 @@ nav p {
 
 .hero {
   height: 150px;
-  background-color: pink;
+  background-color: #CF9FFF;
   margin-bottom: 15px;
   display: flex;
   justify-content: space-between;
@@ -44,7 +37,6 @@ nav p {
 }
 
 main {
-  /* display: flex; */
   max-width: 88%;
   margin: 0 auto;
   /* trick for centre */
@@ -93,45 +85,60 @@ section>div {
 }
 
 .project-1 {
+  background-image: url("https://cdn.pixabay.com/photo/2016/02/11/14/59/background-1193727_1280.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* .project-1 {
   background-image: url("./Horiseon.png");
   background-repeat: no-repeat;
   background-size: cover;
+} */
+
+.project-2 {
+  background-image: url("https://cdn.pixabay.com/photo/2016/02/11/14/59/background-1193727_1280.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.project-3 {
+  background-image: url("https://cdn.pixabay.com/photo/2016/02/11/14/59/background-1193727_1280.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.project-4 {
+  background-image: url("https://cdn.pixabay.com/photo/2016/02/11/14/59/background-1193727_1280.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.project-5 {
+  background-image: url("https://cdn.pixabay.com/photo/2016/02/11/14/59/background-1193727_1280.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.contact-me {
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 footer {
   padding: 20px;
   text-align: center;
-  background: #ffb245;
-  color: #0b61f7;
+  background: #ffef97;
+  color: #CF9FFF;
 }
 
-/* Image Placeholders */
-.sample-img {
-  background-color: #cae9bd;
-  width: 100%;
-  padding: 20px;
-  height: 200px;
-  border: 1px solid black;
-}
-
-/* 
-header changes color */
-@media screen and (max-width: 992px) {
+/* @media screen and (max-width: 992px) {
   header {
     background: #fc33ff;
   }
-}
+} */
 
-/* Large smartphones - navbar changes color */
-@media screen and (max-width: 768px) {
-  nav {
-    background-color: #8dffe1;
-  }
-}
-
-/* Small smartphones - image placeholders change color */
-@media screen and (max-width: 576px) {
-  .sample-img {
-    background-color: #ff00ea;
-  }
-}
+/* Colour scheme: 
+#CF9FFF (Purple)
+#ffef97 (Yellow) */

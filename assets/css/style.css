@@ -1,22 +1,32 @@
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
   font-family: Arial;
-  margin: 0;
 }
 
 header {
-  padding: 60px;
+  padding: 20px;
   text-align: center;
   background: #0E0F19;
   color: #fff;
+  /* margin-bottom: 30px; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 nav {
   display: flex;
-  background-color: #9dc5a2;
+  background-color: #23eb76;
+  margin-bottom: 6px;
+}
+
+header nav a {
+  margin: 0 10px
 }
 
 nav p {
@@ -24,28 +34,75 @@ nav p {
   text-decoration: none;
 }
 
-main {
+.hero {
+  height: 150px;
+  background-color: pink;
+  margin-bottom: 15px;
   display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-aside {
-  flex: 30%;
-  background-color: #b9c6ae;
-  padding: 20px;
-  flex-wrap: wrap;
+main {
+  /* display: flex; */
+  max-width: 88%;
+  margin: 0 auto;
+  /* trick for centre */
 }
 
 section {
-  flex: 70%;
-  background-color: #e8f1e6;
-  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+section>h2 {
+  flex-basis: 25%;
+  text-align: right;
+  padding-right: 20px;
+  border-right: 3px solid black;
+  font-size: 36px;
+}
+
+section>div {
+  flex-basis: 75%;
+  padding-left: 10px;
+}
+
+.work {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.work a {
+  display: flex;
+  border: 5px solid black;
+  min-height: 180px;
+  max-height: 180px;
+  margin: 0.5em;
+  flex-basis: calc(50% - 1em);
+  padding-bottom: 20px;
+  font-size: 0.9rem;
+}
+
+.work a:first-child {
+  min-height: 400px;
+  flex-basis: 100%;
+}
+
+.project-1 {
+  background-image: url("./Horiseon.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 footer {
   padding: 20px;
   text-align: center;
-  background: #0D2818;
-  color: #fff;
+  background: #ffb245;
+  color: #0b61f7;
 }
 
 /* Image Placeholders */
@@ -57,25 +114,24 @@ footer {
   border: 1px solid black;
 }
 
-/* When using `max-width` as the breakpoint, you must go from widest to narrowest to avoid conflict */
-
-/* Tablets - header changes color */
+/* 
+header changes color */
 @media screen and (max-width: 992px) {
   header {
-    background: #04471C;
+    background: #fc33ff;
   }
 }
 
 /* Large smartphones - navbar changes color */
 @media screen and (max-width: 768px) {
   nav {
-    background-color: #058C42;
+    background-color: #8dffe1;
   }
 }
 
 /* Small smartphones - image placeholders change color */
 @media screen and (max-width: 576px) {
   .sample-img {
-    background-color: #16DB65;
+    background-color: #ff00ea;
   }
 }

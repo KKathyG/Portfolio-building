@@ -12,7 +12,7 @@ header {
   padding: 20px;
   text-align: center;
   background: #ffef97;
-  color: #CF9FFF;
+  color: #97a7ff;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -29,8 +29,18 @@ nav p {
 
 .hero {
   height: 150px;
-  background-color: #CF9FFF;
+  background-color: #fff7ca;
+  color: #97a7ff;
   margin-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.avatar {
+  height: 150px;
+  margin-bottom: 15px;
+  margin-left: 30px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -130,7 +140,7 @@ footer {
   padding: 20px;
   text-align: center;
   background: #ffef97;
-  color: #CF9FFF;
+  color: #97a7ff;
 }
 
 /* @media screen and (max-width: 992px) {
@@ -141,4 +151,6 @@ footer {
 
 /* Colour scheme: 
 #CF9FFF (Purple)
-#ffef97 (Yellow) */
+#ffef97 (Yellow)
+#FFE9AD (Deeper Yellow)
+97a7ff (complementary opposite)*/

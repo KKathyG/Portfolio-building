@@ -22,11 +22,6 @@ header nav a {
   margin: 0 10px
 }
 
-nav p {
-  padding: 14px 20px;
-  text-decoration: none;
-}
-
 .hero {
   height: 150px;
   background-color: #fff7ca;
@@ -78,9 +73,20 @@ section>div {
   justify-content: center;
 }
 
+.horiseon {
+  text-align: center;
+  width: 100%;
+}
+
+.soon {
+  text-align: center;
+  width: 100%;
+}
+
+
 .work a {
   display: flex;
-  border: 5px solid black;
+  border: 2px solid rgb(151, 167, 255);
   min-height: 180px;
   max-height: 180px;
   margin: 0.5em;
@@ -148,9 +154,3 @@ footer {
     background: #fc33ff;
   }
 } */
-
-/* Colour scheme: 
-#CF9FFF (Purple)
-#ffef97 (Yellow)
-#FFE9AD (Deeper Yellow)
-97a7ff (complementary opposite)*/

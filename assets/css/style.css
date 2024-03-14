@@ -101,15 +101,10 @@ section>div {
 }
 
 .project-1 {
-  background-image: url("https://cdn.pixabay.com/photo/2016/02/11/14/59/background-1193727_1280.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-/* .project-1 {
   background-image: url("./Horiseon.png");
   background-repeat: no-repeat;
   background-size: cover;
-} */
+}
 
 .project-2 {
   background-image: url("https://cdn.pixabay.com/photo/2016/02/11/14/59/background-1193727_1280.png");
@@ -148,9 +143,3 @@ footer {
   background: #ffef97;
   color: #97a7ff;
 }
-
-/* @media screen and (max-width: 992px) {
-  header {
-    background: #fc33ff;
-  }
-} */
